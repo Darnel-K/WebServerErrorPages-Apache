@@ -13,7 +13,7 @@
         <h2 id='Error'>Error 404</h2>
         <section>
             <h3>Just in case you were wondering...</h3>
-            <p>The requested URL was not found on this server. If you entered the URL manually please check your spelling and try again. If you think this is a server error, please contact the server admin using the button below.</p>
+            <p>The requested URL was not found on this server. If you entered the URL manually please check your spelling and try again.<br>If you think this is a server error, please contact the server admin using the button below.</p>
         </section>
         <p id="info"><?php echo date("d/m/Y h:i:s A T"); ?> &bull; <?php echo date("e"); ?> &bull; Your IP <?php echo $_SERVER['REMOTE_ADDR']; ?> &bull; <a href="mailto:<?php echo $_SERVER['SERVER_ADMIN']; ?>">Contact Server Admin</a></p>
     </div>
