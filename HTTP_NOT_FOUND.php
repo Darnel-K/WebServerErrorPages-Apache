@@ -20,7 +20,7 @@
         <h2 id='Error'>Error 404</h2>
         <section>
             <h3>Just in case you were wondering...</h3>
-            <p>The requested URL was not found on this server. If you entered the URL manually please check your spelling and try again.<br>If you think this is a server error, please contact the server admin using the button below.</p>
+            <p>The requested URL was not found on this server. If you entered the URL manually please check your spelling and try again.<br>If you think this is a server error, please contact the server admin using the link below.</p>
         </section>
         <p id="info"><?php echo $date; ?> &bull; <?php echo $region; ?> &bull; Your IP <?php echo $userIP; ?> &bull; <a href="mailto:<?php echo $admin; ?>">Contact Server Admin</a></p>
     </div>
