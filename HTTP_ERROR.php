@@ -22,7 +22,6 @@
     <div class="swing">
         <h1><?php echo $ErrorTitle; ?></h1>
         <h2 id='Error'>Error <?php echo $ResponseCode; ?></h2>
-        <p><?php echo $_SERVER['REDIRECT_STATUS']; ?></p>
         <section>
             <h3>Just in case you were wondering...</h3>
             <p><?php echo $ErrorMessage; ?><br><br>If you think this is a server error, please contact the server admin using the link below.</p>
