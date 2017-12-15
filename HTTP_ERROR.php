@@ -4,7 +4,11 @@
     $userIP = $_SERVER['REMOTE_ADDR'];
     $admin = $_SERVER['SERVER_ADMIN'];
     $signature = $_SERVER['SERVER_SIGNATURE'];
-    $ResponseCode = $_SERVER['REDIRECT_STATUS'] || http_response_code();
+    if (isset($_SERVER['REDIRECT_STATUS'])) {
+        $ResponseCode = $_SERVER['REDIRECT_STATUS'];
+    } else {
+        $ResponseCode = http_response_code();
+    }
     require 'Codes.php';
     echo $ResponseCode;
     try {
