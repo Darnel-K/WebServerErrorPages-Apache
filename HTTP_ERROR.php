@@ -24,6 +24,7 @@
     <meta charset="UTF-8">
     <base href="/Error/">
     <link rel="stylesheet" href="SASS/Main.min.css">
+    <!-- <link rel="stylesheet" href="SASS/Light.min.css"> -->
     <link rel="stylesheet" href="SASS/Dark.min.css">
     <title><?php echo $ErrorTitle; ?></title>
 </head>
