@@ -18,6 +18,7 @@
     <div class="swing">
         <h1>Object not found!</h1>
         <h2 id='Error'>Error 404</h2>
+        <p><?php echo $_SERVER['REDIRECT_STATUS']; ?></p>
         <section>
             <h3>Just in case you were wondering...</h3>
             <p>The requested URL was not found on this server. If you entered the URL manually please check your spelling and try again.<br><br>If you think this is a server error, please contact the server admin using the link below.</p>
