@@ -1,7 +1,8 @@
 <?php
     $Date = date("d/m/Y h:i:s A T");
     $Region = date("e");
-    $UserIP = $_SERVER['X-Forwarded-For'];
+    require 'RealIP.php';
+    $UserIP = GetIP();
     $Admin = $_SERVER['SERVER_ADMIN'];
     $Signature = $_SERVER['SERVER_SIGNATURE'];
     if (isset($_SERVER['REDIRECT_STATUS'])) {
