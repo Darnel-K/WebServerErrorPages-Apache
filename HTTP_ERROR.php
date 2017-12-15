@@ -10,10 +10,10 @@
         $ResponseCode = http_response_code();
     }
     require 'Codes.php';
-    try {
+    if (isset($ErrorCodes[$ResponseCode])) {
         $ErrorTitle = $ErrorCodes[$ResponseCode][0];
         $ErrorMessage = $ErrorCodes[$ResponseCode][1];
-    } catch (Exception $e) {
+    } else {
         $ErrorTitle="Unknown Error!";
         $ErrorMessage="An unknown error has occurred.";
     }
