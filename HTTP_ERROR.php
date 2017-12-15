@@ -1,8 +1,7 @@
 <?php
     $Date = date("d/m/Y h:i:s A T");
     $Region = date("e");
-    require 'RealIP.php';
-    $UserIP = GetIP();
+    $UserIP = $_SERVER['REMOTE_ADDR'];
     $Admin = $_SERVER['SERVER_ADMIN'];
     $Signature = $_SERVER['SERVER_SIGNATURE'];
     if (isset($_SERVER['REDIRECT_STATUS'])) {
