@@ -20,7 +20,7 @@
         <h2 id='Error'>Error 401</h2>
         <section>
             <h3>Just in case you were wondering...</h3>
-            <p>This server could not verify that you are authorized to access the URL "<?php echo $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>". You either supplied the wrong credentials (e.g., bad password), or your browser doesn't understand how to supply the credentials required.<br>In case you are allowed to request the document, please check your user-id and password and try again.<br>If you think this is a server error, please contact the server admin using the link below.</p>
+            <p>This server could not verify that you are authorized to access the URL "<?php echo $_SERVER['HTTPS'] . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>". You either supplied the wrong credentials (e.g., bad password), or your browser doesn't understand how to supply the credentials required.<br>In case you are allowed to request the document, please check your user-id and password and try again.<br>If you think this is a server error, please contact the server admin using the link below.</p>
         </section>
         <p id="info"><?php echo $date; ?> &bull; <?php echo $region; ?> &bull; Your IP <?php echo $userIP; ?> &bull; <a href="mailto:<?php echo $admin; ?>">Contact Server Admin</a></p>
     </div>
