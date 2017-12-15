@@ -6,7 +6,7 @@
     }
     $ErrorCodes = array(
         400 => array('Bad Request!', 'Your browser (or proxy) sent a request that this server could not understand.'),
-        401 => array('Authentication required!', 'This server could not verify that you are authorized to access the URL "' . $HTTP . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] . '". You either supplied the wrong credentials (e.g., bad password), or your browser doesn\'t understand how to supply the credentials required. In case you are allowed to request the document, please check your user-id and password and try again.'),
+        401 => array('Authentication Required!', 'This server could not verify that you are authorized to access the URL "' . $HTTP . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] . '". You either supplied the wrong credentials (e.g., bad password), or your browser doesn\'t understand how to supply the credentials required. In case you are allowed to request the document, please check your user-id and password and try again.'),
         403 => array('Access Forbidden!', 'You don\'t have permission to access the requested object. It is either read-protected or not readable by the server.'),
         404 => array('Object Not Found!', 'The requested URL was not found on this server. If you entered the URL manually please check your spelling and try again.'),
         405 => array('Method Not Allowed!', 'The ' . $_SERVER['REQUEST_METHOD'] . ' method is not allowed for the requested URL.'),
