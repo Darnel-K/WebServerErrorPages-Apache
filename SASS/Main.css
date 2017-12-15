@@ -13,7 +13,6 @@ div {
   max-width: 760px;
   border: 2px solid #666;
   padding: 20px;
-  word-break: break-all;
 }
 
 div h1 {
@@ -24,6 +23,7 @@ div h1 {
 
 div h2 {
   font-weight: normal;
+  word-break: break-all;
 }
 
 div section p {
