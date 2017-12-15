@@ -1,4 +1,5 @@
 <?php
+http_response_code(404);
     $date = date("d/m/Y h:i:s A T");
     $region = date("e");
     $userIP = $_SERVER['REMOTE_ADDR'];
