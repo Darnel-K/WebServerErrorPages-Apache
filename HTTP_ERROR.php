@@ -1,5 +1,4 @@
 <?php
-http_response_code(418);
     $date = date("d/m/Y h:i:s A T");
     $region = date("e");
     $userIP = $_SERVER['REMOTE_ADDR'];
@@ -11,12 +10,12 @@ http_response_code(418);
         $ResponseCode = http_response_code();
     }
     require 'Codes.php';
-    echo $ResponseCode;
     try {
         $ErrorTitle = $ErrorCodes[$ResponseCode][0];
         $ErrorMessage = $ErrorCodes[$ResponseCode][1];
     } catch (Exception $e) {
-
+        $ErrorTitle="Unknown Error!";
+        $ErrorMessage="An unknown error has occurred.";
     }
 ?>
 <!DOCTYPE html>
