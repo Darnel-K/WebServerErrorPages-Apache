@@ -1,7 +1,7 @@
 <?php
     $Date = date("d/m/Y h:i:s A T");
     $Region = date("e");
-    $UserIP = $_SERVER['HTTP_X_FORWARDED_FOR'];
+    $UserIP = $_SERVER['X-Forwarded-For'];
     $Admin = $_SERVER['SERVER_ADMIN'];
     $Signature = $_SERVER['SERVER_SIGNATURE'];
     if (isset($_SERVER['REDIRECT_STATUS'])) {
