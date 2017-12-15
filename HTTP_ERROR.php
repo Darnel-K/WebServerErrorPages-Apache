@@ -6,11 +6,12 @@
     $signature = $_SERVER['SERVER_SIGNATURE'];
     $ResponseCode = $_SERVER['REDIRECT_STATUS'] || http_response_code();
     require 'Codes.php';
+    echo $ResponseCode;
     try {
         $ErrorTitle = $ErrorCodes[$ResponseCode][0];
         $ErrorMessage = $ErrorCodes[$ResponseCode][1];
     } catch (Exception $e) {
-        
+
     }
 ?>
 <!DOCTYPE html>
