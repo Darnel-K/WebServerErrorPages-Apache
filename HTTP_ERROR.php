@@ -1,13 +1,13 @@
 <?php
-    $ResponseCode = $_SERVER['REDIRECT_STATUS'];
-    require 'Codes.php';
-    $ErrorTitle = $ErrorCodes[$ResponseCode][0];
-    $ErrorMessage = $ErrorCodes[$ResponseCode][1];
     $date = date("d/m/Y h:i:s A T");
     $region = date("e");
     $userIP = $_SERVER['REMOTE_ADDR'];
     $admin = $_SERVER['SERVER_ADMIN'];
     $signature = $_SERVER['SERVER_SIGNATURE'];
+    $ResponseCode = $_SERVER['REDIRECT_STATUS'];
+    require 'Codes.php';
+    $ErrorTitle = $ErrorCodes[$ResponseCode][0];
+    $ErrorMessage = $ErrorCodes[$ResponseCode][1];
 ?>
 <!DOCTYPE html>
 <html lang="en">
