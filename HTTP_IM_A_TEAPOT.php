@@ -5,7 +5,7 @@
     <base href="/CustomErrorPages/">
     <link rel="stylesheet" href="SASS/Main.min.css">
     <link rel="stylesheet" href="SASS/Dark.min.css">
-    <title>Cannot process request!</title>
+    <title>I'M A TEAPOT!</title>
 </head>
 <body>
     <?php
@@ -16,11 +16,11 @@
         $signature = $_SERVER['SERVER_SIGNATURE'];
     ?>
     <div class="swing">
-        <h1>Cannot process request!</h1>
-        <h2 id='Error'>Error 501</h2>
+        <h1>I'M A TEAPOT!</h1>
+        <h2 id='Error'>Error 418</h2>
         <section>
             <h3>Just in case you were wondering...</h3>
-            <p>The server does not support the action requested by the browser.<br>If you think this is a server error, please contact the server admin using the link below.</p>
+            <p>Any attempt to brew coffee with a teapot should result in the error code "418 I'm a teapot". The resulting entity body MAY be short and stout.</p>
         </section>
         <p id="info"><?php echo $date; ?> &bull; <?php echo $region; ?> &bull; Your IP <?php echo $userIP; ?> &bull; <a href="mailto:<?php echo $admin; ?>">Contact Server Admin</a></p>
     </div>

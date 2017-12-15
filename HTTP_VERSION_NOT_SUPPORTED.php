@@ -5,7 +5,7 @@
     <base href="/CustomErrorPages/">
     <link rel="stylesheet" href="SASS/Main.min.css">
     <link rel="stylesheet" href="SASS/Dark.min.css">
-    <title>Cannot process request!</title>
+    <title>HTTP version not supported!</title>
 </head>
 <body>
     <?php
@@ -16,11 +16,11 @@
         $signature = $_SERVER['SERVER_SIGNATURE'];
     ?>
     <div class="swing">
-        <h1>Cannot process request!</h1>
-        <h2 id='Error'>Error 501</h2>
+        <h1>HTTP version not supported!</h1>
+        <h2 id='Error'>Error 505</h2>
         <section>
             <h3>Just in case you were wondering...</h3>
-            <p>The server does not support the action requested by the browser.<br>If you think this is a server error, please contact the server admin using the link below.</p>
+            <p>The server does not support, or refuses to support, the major version of HTTP that was used in the request message.<br>If you think this is a server error, please contact the server admin using the link below.</p>
         </section>
         <p id="info"><?php echo $date; ?> &bull; <?php echo $region; ?> &bull; Your IP <?php echo $userIP; ?> &bull; <a href="mailto:<?php echo $admin; ?>">Contact Server Admin</a></p>
     </div>
