@@ -20,7 +20,7 @@
         <h2 id='Error'>Error 506</h2>
         <section>
             <h3>Just in case you were wondering...</h3>
-            <p>A variant for the requested entity is itself a negotiable resource. Access not possible.<br>If you think this is a server error, please contact the server admin using the link below.</p>
+            <p>A variant for the requested entity is itself a negotiable resource. Access not possible.<br><br>If you think this is a server error, please contact the server admin using the link below.</p>
         </section>
         <p id="info"><?php echo $date; ?> &bull; <?php echo $region; ?> &bull; Your IP <?php echo $userIP; ?> &bull; <a href="mailto:<?php echo $admin; ?>">Contact Server Admin</a></p>
     </div>

@@ -20,7 +20,7 @@
         <h2 id='Error'>Error 410</h2>
         <section>
             <h3>Just in case you were wondering...</h3>
-            <p>The requested URL is no longer available on this server and there is no forwarding address. If you followed a link from a foreign page, please contact the author of this page.<br>If you think this is a server error, please contact the server admin using the link below.</p>
+            <p>The requested URL is no longer available on this server and there is no forwarding address. If you followed a link from a foreign page, please contact the author of this page.<br><br>If you think this is a server error, please contact the server admin using the link below.</p>
         </section>
         <p id="info"><?php echo $date; ?> &bull; <?php echo $region; ?> &bull; Your IP <?php echo $userIP; ?> &bull; <a href="mailto:<?php echo $admin; ?>">Contact Server Admin</a></p>
     </div>

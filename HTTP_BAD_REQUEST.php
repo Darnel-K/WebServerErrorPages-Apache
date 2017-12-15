@@ -20,7 +20,7 @@
         <h2 id='Error'>Error 400</h2>
         <section>
             <h3>Just in case you were wondering...</h3>
-            <p>Your browser (or proxy) sent a request that this server could not understand.<br>If you think this is a server error, please contact the server admin using the link below.</p>
+            <p>Your browser (or proxy) sent a request that this server could not understand.<br><br>If you think this is a server error, please contact the server admin using the link below.</p>
         </section>
         <p id="info"><?php echo $date; ?> &bull; <?php echo $region; ?> &bull; Your IP <?php echo $userIP; ?> &bull; <a href="mailto:<?php echo $admin; ?>">Contact Server Admin</a></p>
     </div>

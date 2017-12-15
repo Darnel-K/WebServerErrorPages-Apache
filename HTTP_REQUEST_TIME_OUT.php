@@ -20,7 +20,7 @@
         <h2 id='Error'>Error 408</h2>
         <section>
             <h3>Just in case you were wondering...</h3>
-            <p>The server closed the network connection because the browser didn't finish the request within the specified time.<br>If you think this is a server error, please contact the server admin using the link below.</p>
+            <p>The server closed the network connection because the browser didn't finish the request within the specified time.<br><br>If you think this is a server error, please contact the server admin using the link below.</p>
         </section>
         <p id="info"><?php echo $date; ?> &bull; <?php echo $region; ?> &bull; Your IP <?php echo $userIP; ?> &bull; <a href="mailto:<?php echo $admin; ?>">Contact Server Admin</a></p>
     </div>

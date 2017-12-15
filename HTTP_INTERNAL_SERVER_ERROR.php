@@ -20,7 +20,7 @@
         <h2 id='Error'>Error 500</h2>
         <section>
             <h3>Just in case you were wondering...</h3>
-            <p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there was an error in a CGI script.<br>If you think this is a server error, please contact the server admin using the link below.</p>
+            <p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there was an error in a CGI script.<br><br>If you think this is a server error, please contact the server admin using the link below.</p>
         </section>
         <p id="info"><?php echo $date; ?> &bull; <?php echo $region; ?> &bull; Your IP <?php echo $userIP; ?> &bull; <a href="mailto:<?php echo $admin; ?>">Contact Server Admin</a></p>
     </div>
