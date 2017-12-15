@@ -16,7 +16,7 @@
         $signature = $_SERVER['SERVER_SIGNATURE'];
     ?>
     <div class="swing">
-        <h1>Server error!</h1>
+        <h1>Internal server error!</h1>
         <h2 id='Error'>Error 500</h2>
         <section>
             <h3>Just in case you were wondering...</h3>
