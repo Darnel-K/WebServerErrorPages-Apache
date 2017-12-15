@@ -1,9 +1,9 @@
 <?php
-    $date = date("d/m/Y h:i:s A T");
-    $region = date("e");
-    $userIP = $_SERVER['REMOTE_ADDR'];
-    $admin = $_SERVER['SERVER_ADMIN'];
-    $signature = $_SERVER['SERVER_SIGNATURE'];
+    $Date = date("d/m/Y h:i:s A T");
+    $Region = date("e");
+    $UserIP = $_SERVER['REMOTE_ADDR'];
+    $Admin = $_SERVER['SERVER_ADMIN'];
+    $Signature = $_SERVER['SERVER_SIGNATURE'];
     if (isset($_SERVER['REDIRECT_STATUS'])) {
         $ResponseCode = $_SERVER['REDIRECT_STATUS'];
     } else {
@@ -34,10 +34,10 @@
         <h2 id='Error'>Error <?php echo $ResponseCode; ?></h2>
         <section>
             <h3>Just in case you were wondering...</h3>
-            <p><?php echo $ErrorMessage; ?><br><br>If you think this is a server error, please contact the server admin using the link below.</p>
+            <p><?php echo $ErrorMessage; ?><br><br>If you think this is a server error, please contact the server Admin using the link below.</p>
         </section>
-        <p id="info"><?php echo $date; ?> &bull; <?php echo $region; ?> &bull; Your IP <?php echo $userIP; ?> &bull; <a href="mailto:<?php echo $admin; ?>">Contact Server Admin</a></p>
+        <p id="info"><?php echo $Date; ?> &bull; <?php echo $Region; ?> &bull; Your IP <?php echo $UserIP; ?> &bull; <a href="mailto:<?php echo $Admin; ?>">Contact Server Admin</a></p>
     </div>
-    <footer><?php echo $signature; ?></footer>
+    <footer><?php echo $Signature; ?></footer>
 </body>
 </html>
