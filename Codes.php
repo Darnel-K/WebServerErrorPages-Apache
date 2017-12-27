@@ -1,5 +1,5 @@
 <?php
-    if ($_SERVER['HTTPS'] != null || "") {
+    if (isset($_SERVER['HTTPS'])) {
         $HTTP = "https://";
     } else {
         $HTTP = "http://";
