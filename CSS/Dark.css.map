@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "AAAA,AAAA,IAAI,CAAC;EACD,KAAK,EAAE,IAAI;EACX,gBAAgB,EAAE,OAAO;CAAI;;AAEjC,AAAA,CAAC,AAAA,MAAM,CAAC;EACJ,KAAK,EAAE,IAAI;CAAI",
     "sources": [
-        "Dark.sass"
+        "../SASS/Dark.sass"
     ],
     "names": [],
     "file": "Dark.css"

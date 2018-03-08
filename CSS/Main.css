@@ -54,27 +54,27 @@ a {
 
 @-webkit-keyframes swing {
   15% {
-    -webkit-transform: translate(calc(-50% + 5px), -50%);
+    -webkit-transform: translate(-webkit-calc(-50% + 5px), -50%);
             transform: translate(calc(-50% + 5px), -50%);
     border-color: #666;
   }
   30% {
-    -webkit-transform: translate(calc(-50% - 5px), -50%);
+    -webkit-transform: translate(-webkit-calc(-50% - 5px), -50%);
             transform: translate(calc(-50% - 5px), -50%);
     border-color: #F00;
   }
   50% {
-    -webkit-transform: translate(calc(-50% + 3px), -50%);
+    -webkit-transform: translate(-webkit-calc(-50% + 3px), -50%);
             transform: translate(calc(-50% + 3px), -50%);
     border-color: #666;
   }
   65% {
-    -webkit-transform: translate(calc(-50% - 3px), -50%);
+    -webkit-transform: translate(-webkit-calc(-50% - 3px), -50%);
             transform: translate(calc(-50% - 3px), -50%);
     border-color: #F00;
   }
   80% {
-    -webkit-transform: translate(calc(-50% + 2px), -50%);
+    -webkit-transform: translate(-webkit-calc(-50% + 2px), -50%);
             transform: translate(calc(-50% + 2px), -50%);
     border-color: #666;
   }
@@ -87,27 +87,27 @@ a {
 
 @keyframes swing {
   15% {
-    -webkit-transform: translate(calc(-50% + 5px), -50%);
+    -webkit-transform: translate(-webkit-calc(-50% + 5px), -50%);
             transform: translate(calc(-50% + 5px), -50%);
     border-color: #666;
   }
   30% {
-    -webkit-transform: translate(calc(-50% - 5px), -50%);
+    -webkit-transform: translate(-webkit-calc(-50% - 5px), -50%);
             transform: translate(calc(-50% - 5px), -50%);
     border-color: #F00;
   }
   50% {
-    -webkit-transform: translate(calc(-50% + 3px), -50%);
+    -webkit-transform: translate(-webkit-calc(-50% + 3px), -50%);
             transform: translate(calc(-50% + 3px), -50%);
     border-color: #666;
   }
   65% {
-    -webkit-transform: translate(calc(-50% - 3px), -50%);
+    -webkit-transform: translate(-webkit-calc(-50% - 3px), -50%);
             transform: translate(calc(-50% - 3px), -50%);
     border-color: #F00;
   }
   80% {
-    -webkit-transform: translate(calc(-50% + 2px), -50%);
+    -webkit-transform: translate(-webkit-calc(-50% + 2px), -50%);
             transform: translate(calc(-50% + 2px), -50%);
     border-color: #666;
   }
