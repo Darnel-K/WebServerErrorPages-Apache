@@ -18,6 +18,7 @@
         414 => array('Submitted URI Too Large!', 'The length of the requested URL exceeds the capacity limit for this server. The request cannot be processed.'),
         415 => array('Unsupported Media Type!', 'The server does not support the media type transmitted in the request.'),
         418 => array('I\'m A Teapot!', 'The requested entity body is short and stout.'),
+        421 => array('Misdirected Request', 'The client needs a new connection for this request as the requested host name does not match the Server Name Indication (SNI) in use for this connection.'),
         500 => array('Internal Server Error!', 'The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there was an error in a CGI script.'),
         501 => array('Cannot Process Request!', 'The server does not support the action requested by the browser.'),
         502 => array('Bad Gateway!', 'The proxy server received an invalid response from an upstream server.'),
