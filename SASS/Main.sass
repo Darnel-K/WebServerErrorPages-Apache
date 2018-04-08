@@ -1,38 +1,27 @@
 *
     font-family: monospace
 
-div
-    position: absolute
-    top: 50%
-    left: 50%
-    transform: translate(-50%, -50%)
-    width: 90%
-    max-width: 760px
-    border: 2px solid #666
-    padding: 20px
-    h1
-        border-bottom: 3px solid #666
-        padding-bottom: 5px
-        margin-top: 5px
-    h2
-        font-weight: normal
-        word-break: break-all
-    section
-        p
-            font-size: small
-            text-align: justify
-    #info
-        margin-bottom: 5px
-        border-top: 3px solid #666
-        padding-top: 5px
-        text-align: center
+body
+    grid-template-rows: auto min-content
+    width: 100vw
+    margin: 0
+    height: 100vh
+
+#Container
+    display: grid
+    justify-content: center
+    align-content: center
 
 footer
-    position: absolute
-    bottom: 0
-    left: 0
     margin: 5px
     font-size: xx-small
+    display: grid
+    address
+        grid-column: 1
+    p
+        grid-column: 2
+        margin: 0
+        text-align: right
 a
     text-decoration: none
     color: #999
@@ -61,3 +50,22 @@ a
 .swing
     animation: swing 1s ease
     animation-iteration-count: 1
+    max-width: 760px
+    border: 2px solid #666
+    padding: 20px
+    h1
+        border-bottom: 3px solid #666
+        padding-bottom: 5px
+        margin-top: 5px
+    h2
+        font-weight: normal
+        word-break: break-all
+    section
+        p
+            font-size: small
+            text-align: justify
+    #info
+        margin-bottom: 5px
+        border-top: 3px solid #666
+        padding-top: 5px
+        text-align: center

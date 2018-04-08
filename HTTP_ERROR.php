@@ -29,14 +29,16 @@
     <title><?php echo $ErrorTitle; ?></title>
 </head>
 <body>
-    <div class="swing">
-        <h1><?php echo $ErrorTitle; ?></h1>
-        <h2 id='Error'>Error <?php echo $ResponseCode; ?></h2>
-        <section>
-            <h3>Just in case you were wondering...</h3>
-            <p><?php echo $ErrorMessage; ?><br><br>If you think this is a server error, please contact the server Admin using the link below.</p>
-        </section>
-        <p id="info"><?php echo $Date; ?> &bull; <?php echo $Region; ?> &bull; Your IP <?php echo $UserIP; ?> &bull; <a href="mailto:<?php echo $Admin; ?>">Contact Server Admin</a></p>
+    <div id="Container">
+        <div class="swing">
+            <h1><?php echo $ErrorTitle; ?></h1>
+            <h2 id='Error'>Error <?php echo $ResponseCode; ?></h2>
+            <section>
+                <h3>Just in case you were wondering...</h3>
+                <p><?php echo $ErrorMessage; ?><br><br>If you think this is a server error, please contact the server Admin using the link below.</p>
+            </section>
+            <p id="info"><?php echo $Date; ?> &bull; <?php echo $Region; ?> &bull; Your IP <?php echo $UserIP; ?> &bull; <a href="mailto:<?php echo $Admin; ?>">Contact Server Admin</a></p>
+        </div>
     </div>
     <footer><?php echo $Signature; ?><p id='Copyright'>Copyright &copy; <?php echo date('Y'); ?> Darnel-K</p></footer>
 </body>
