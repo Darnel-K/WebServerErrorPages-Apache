@@ -39,6 +39,5 @@
         <p id="info"><?php echo $Date; ?> &bull; <?php echo $Region; ?> &bull; Your IP <?php echo $UserIP; ?> &bull; <a href="mailto:<?php echo $Admin; ?>">Contact Server Admin</a></p>
     </div>
     <footer><?php echo $Signature; ?><p id='Copyright'>Copyright &copy; <?php echo date('Y'); ?> Darnel-K</p></footer>
-    
 </body>
 </html>
