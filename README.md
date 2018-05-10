@@ -1,2 +1,2 @@
 # WebServerErrorPages-Apache
-Universal Error Page For My Apache Server(s)
+Universal Error Page For Apache Server(s)
