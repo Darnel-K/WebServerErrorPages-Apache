@@ -1,3 +1,5 @@
+@import '_Vars.sass'
+
 *
     font-family: monospace
 
@@ -25,37 +27,37 @@ footer
         text-align: right
 a
     text-decoration: none
-    color: #999
+    color: $GlobalLinkColour
     font-size: smaller
 
 @keyframes swing
     15%
         transform: translateX(calc(0% + 5px))
-        border-color: #666
+        border-color: $GlobalBoxStandardBorderColour
     30%
         transform: translateX(calc(0% - 5px))
-        border-color: #F00
+        border-color: $GlobalBoxAlertBorderColour
     50%
         transform: translateX(calc(0% + 3px))
-        border-color: #666
+        border-color: $GlobalBoxStandardBorderColour
     65%
         transform: translateX(calc(0% - 3px))
-        border-color: #F00
+        border-color: $GlobalBoxAlertBorderColour
     80%
         transform: translateX(calc(0% + 2px))
-        border-color: #666
+        border-color: $GlobalBoxStandardBorderColour
     100%
         transform: translateX(0%)
-        border-color: #F00
+        border-color: $GlobalBoxAlertBorderColour
 
 .swing
     animation: swing 1s ease
     animation-iteration-count: 1
     max-width: 760px
-    border: 2px solid #666
+    border: 2px solid $GlobalBoxStandardBorderColour
     padding: 20px
     h1
-        border-bottom: 3px solid #666
+        border-bottom: 3px solid $GlobalBoxStandardBorderColour
         padding-bottom: 5px
         margin-top: 5px
     h2
@@ -67,6 +69,6 @@ a
             text-align: justify
     #info
         margin-bottom: 5px
-        border-top: 3px solid #666
+        border-top: 3px solid $GlobalBoxStandardBorderColour
         padding-top: 5px
         text-align: center

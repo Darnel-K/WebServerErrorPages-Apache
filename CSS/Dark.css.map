@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,IAAI,CAAC;EACD,KAAK,EAAE,IAAI;EACX,gBAAgB,EAAE,OAAO;CAAG;;AAEhC,AAAA,CAAC,AAAA,MAAM,CAAC;EACJ,KAAK,EAAE,IAAI;CAAG",
+    "mappings": "AAEA,AAAA,IAAI,CAAC;EACD,KAAK,ECIQ,IAAI;EDHjB,gBAAgB,ECIH,OAAO;CDJgB;;AAExC,AAAA,CAAC,AAAA,MAAM,CAAC;EACJ,KAAK,ECAQ,IAAI;CDAQ",
     "sources": [
-        "../SASS/Dark.sass"
+        "../SASS/Dark.sass",
+        "../SASS/_Vars.sass"
     ],
     "names": [],
     "file": "Dark.css"
