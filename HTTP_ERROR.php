@@ -37,7 +37,7 @@
                 <h3>Just in case you were wondering...</h3>
                 <p><?php echo $ErrorMessage; ?><br><br>If you think this is a server error, please contact the server Admin using the link below.</p>
             </section>
-            <p id="info"><?php echo $Date; ?> &bull; <?php echo $Region; ?> &bull; Your IP <?php echo $UserIP; ?> &bull; <a href="mailto:<?php echo $Admin; ?>?subject=<?php echo urlencode("Error " . $ResponseCode . " @ " . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']) ?>">Contact Server Admin</a></p>
+            <p id="info"><?php echo $Date; ?> &bull; <?php echo $Region; ?> &bull; Your IP <?php echo $UserIP; ?> &bull; <a href="mailto:<?php echo $Admin; ?>?subject=<?php echo rawurlencode("Error " . $ResponseCode . " @ " . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']) ?>">Contact Server Admin</a></p>
         </div>
     </div>
     <footer><?php echo $Signature; ?><p id='Copyright'>Copyright &copy; <?php echo date('Y'); ?> Darnel-K</p></footer>
