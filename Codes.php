@@ -5,7 +5,7 @@
         $HTTP = "http://";
     }
     $ErrorCodes = array(
-        200 => array('OK', 'It looks like you\'re accessing this error page directly, code \'200\' is the standard response for successful HTTP requests'),
+        200 => array('OK', 'It looks like you\'re accessing this error page directly, code \'200\' is the standard response for successful HTTP requests.'),
         400 => array('Bad Request!', 'Your browser (or proxy) sent a request that this server could not understand.'),
         401 => array('Authentication Required!', 'This server could not verify that you are authorized to access the URL "' . $HTTP . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] . '". You either supplied the wrong credentials (e.g., bad password), or your browser doesn\'t understand how to supply the credentials required. In case you are allowed to request the document, please check your user-id and password and try again.'),
         403 => array('Access Forbidden!', 'You don\'t have permission to access the requested object. It is either read-protected or not readable by the server.'),
