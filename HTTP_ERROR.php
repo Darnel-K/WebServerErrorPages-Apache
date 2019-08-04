@@ -22,7 +22,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <base href="/Error/">
+    <base href="/SVR_ERROR/">
     <link rel="stylesheet" href="CSS/Main.min.css">
     <!-- <link rel="stylesheet" href="CSS/Light.min.css"> -->
     <link rel="stylesheet" href="CSS/Dark.min.css">
